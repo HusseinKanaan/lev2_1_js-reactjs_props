@@ -1,0 +1,16 @@
+p{
+    font-weight: bold;
+}
+
+button{
+    background-color: #ff0000aa;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+}
+
+img{
+    height: 200px;
+    width: 100%;
+}
+
