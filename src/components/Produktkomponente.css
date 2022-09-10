@@ -1,16 +1,22 @@
-p{
+p {
     font-weight: bold;
 }
 
-button{
+.flexContainer {
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    display: flex;
+}
+
+button {
     background-color: #ff0000aa;
     border-radius: 15px;
     width: 150px;
     height: 30px;
 }
 
-img{
+img {
     height: 200px;
     width: 100%;
 }
-

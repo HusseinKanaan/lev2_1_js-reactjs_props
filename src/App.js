@@ -19,16 +19,18 @@ const produkte = [
   }
 ]
 
-// JS
 function App() {
-  // Vanilla JS
-  return (
-    //JSX
-    <div className="App">
-      <Produktkomponente img={produkte[0].bild} Product={produkte[0].Name} preis={produkte[0].price} />
-      <Produktkomponente img={produkte[1].bild} Product={produkte[1].Name} preis={produkte[1].price} />
-      <Produktkomponente img={produkte[2].bild} Product={produkte[2].Name} preis={produkte[2].price} />
 
+  return (
+
+    <div className="App">
+      <h1>Supershop</h1>
+      <section className='flexContainer'>
+      <Produktkomponente Product={produkte[0].Name} preis={produkte[0].price} img={produkte[0].bild} />
+      <Produktkomponente Product={produkte[1].Name} preis={produkte[1].price} img={produkte[1].bild} />
+      <Produktkomponente Product={produkte[2].Name} preis={produkte[2].price} img={produkte[2].bild} />
+
+      </section>
 
     </div>
   );
